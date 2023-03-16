@@ -1,0 +1,121 @@
+/* Reset de Estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos Gerais */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f8f8;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+}
+
+select option:first-child {
+    color: #999;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    background-color: #008000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #006600;
+}
+
+#cadastros,
+#duplas {
+    margin: 2rem auto;
+    max-width: 500px;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#cadastros h2,
+#duplas h2 {
+    margin-bottom: 1rem;
+}
+
+#cadastros ul,
+#duplas ul {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+#cadastros li,
+#duplas li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#cadastros li span,
+#duplas li span {
+    font-weight: bold;
+}
+
+#cadastros li button,
+#duplas li button {
+    border: none;
+    background-color: #d9534f;
+    color: #fff;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+
+#cadastros li button:hover,
+#duplas li button:hover {
+    background-color: #c9302c;
+}

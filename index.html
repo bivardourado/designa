@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Duplas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Cadastro de Duplas</h1>
+
+    <form id="cadastro-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <div class="select-container">
+            <label for="sexo">Sexo:</label>
+            <select id="sexo" name="sexo" required>
+                <option value="">Selecione o Sexo</option>
+                <option value="F">Feminino</option>
+                <option value="M">Masculino</option>
+            </select>
+        </div>
+
+        <div class="select-container">
+            <label for="nivel">Nível:</label>
+            <select id="nivel" name="nivel" required>
+                <option value="">Selecione o nível</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+        </div>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+
+    <div id="cadastros">
+        <h2>Cadastros</h2>
+        <ul id="cadastros-lista"></ul>
+        <button id="toggle-cadastros">Exibir/Ocultar Lista de Cadastros</button>
+    </div>
+
+    <div id="duplas">
+        <h2>Duplas </h2>
+        <ul id="duplas-lista"></ul>
+        <button id="gerar-duplas">Gerar Duplas</button>
+        <button id="toggle-duplas">Exibir/Ocultar Lista de Duplas</button>
+    </div>
+
+    <script src="designa.js"></script>
+</body>
+
+</html>
